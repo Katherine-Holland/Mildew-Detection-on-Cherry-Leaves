@@ -1,13 +1,13 @@
 # Cherry Leaf Powdery Mildew Detection
 
-## 📄 **Project Overview**
+## **Project Overview**
 This project aims to assist Farmy & Foods, an agricultural company, in automating the detection of powdery mildew in cherry leaves. Powdery mildew is a fungal disease that affects plant health and fruit quality, posing a significant challenge for the company. The manual detection process is time-consuming and inefficient, making scalability a challenge. This project utilizes machine learning to predict whether a cherry leaf is healthy or infected with powdery mildew, using images provided by the client.
 
-The project delivers a **Streamlit dashboard** that fulfills the client's business requirements and provides a scalable, efficient solution to detect mildew.
+The project delivers a **Streamlit dashboard** that fulfills the client's business requirements and provides a scalable, efficient solution to detect mildew. Check it out here:  https://new-cherry-leaves.onrender.com/
 
 ---
 
-## 🎯 **Business Requirements**
+## **Business Requirements**
 1. **Visual Differentiation Study**  
    Conduct a study to visually differentiate cherry leaves that are healthy from those infected with powdery mildew. This study includes:
    - Average images and variability images for both classes (healthy and infected).
@@ -25,7 +25,7 @@ The project delivers a **Streamlit dashboard** that fulfills the client's busine
 
 ---
 
-## 📂 **Dataset**
+## **Dataset**
 The dataset, sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves), consists of **4,280 images of cherry leaves**:
 - **Healthy**: Cherry leaves with no signs of infection.
 - **Infected**: Cherry leaves with visible powdery mildew.
@@ -37,7 +37,7 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-l
 
 ---
 
-## 🧪 **Project Hypothesis**
+## **Project Hypothesis**
 The hypothesis for the project was that infected cherry leaves would exhibit:
 1. **White powdery mildew patches.**
 2. **Shriveled or irregular edges.**
@@ -50,7 +50,7 @@ The hypothesis was tested using:
 
 ---
 
-## 🛠️ **Machine Learning Pipeline**
+## **Machine Learning Pipeline**
 ### Key Steps:
 1. **Data Preprocessing:**
    - Resize images to manageable dimensions (256x256 pixels).
@@ -101,7 +101,7 @@ The dashboard is structured into the following pages:
 ---
 ## Epics and User Stories
 
-## 🌱 Epic 1: Data Collection and Preparation  
+## Epic 1: Data Collection and Preparation  
 *As a data scientist, I need to collect and preprocess data so that I can train an accurate model.*
 
 ### **User Stories:**
@@ -112,7 +112,7 @@ The dashboard is structured into the following pages:
 
 ---
 
-## 📊 Epic 2: Data Visualization and Exploratory Analysis  
+## Epic 2: Data Visualization and Exploratory Analysis  
 *As a data scientist, I need to explore the dataset visually so that I can understand the key patterns and insights.*  
 
 ### **User Stories:**
@@ -123,7 +123,7 @@ The dashboard is structured into the following pages:
 
 ---
 
-## 🧠 Epic 3: Model Development and Optimization  
+## Epic 3: Model Development and Optimization  
 *As a machine learning engineer, I need to develop and train a neural network to classify cherry leaves as healthy or infected.*  
 
 ### **User Stories:**
@@ -134,7 +134,7 @@ The dashboard is structured into the following pages:
 
 ---
 
-## 🖥️ Epic 4: Dashboard Development  
+## Epic 4: Dashboard Development  
 *As a product owner, I need a user-friendly dashboard so that clients can easily upload images and receive predictions.*  
 
 ### **User Stories:**
@@ -146,7 +146,7 @@ The dashboard is structured into the following pages:
 
 ---
 
-## 🚀 Epic 5: Model Evaluation and Deployment  
+## Epic 5: Model Evaluation and Deployment  
 *As a machine learning engineer, I need to test, deploy, and monitor the model so that it remains reliable in real-world conditions.*  
 
 ### **User Stories:**
@@ -158,7 +158,7 @@ The dashboard is structured into the following pages:
 
 ---
 
-## 🔒 Epic 6: Ethical Considerations and Compliance  
+## Epic 6: Ethical Considerations and Compliance  
 *As a project lead, I need to ensure compliance with data protection policies so that client data remains secure.*  
 
 ### **User Stories:**
@@ -168,14 +168,14 @@ The dashboard is structured into the following pages:
 
 ---
 
-## 📈 **Key Results**
+## **Key Results**
 - The **color model** achieved a **test set accuracy exceeding 97%**, meeting the client's expectations.
 - The **grayscale model** marginally improved accuracy and loss and file size and would be worth exploring further as a scaleable solution for larger datasets.
 - The charts show an accurate result and there are no signs of over or underfitting, this was achieved using stop loss within the training models.
 
 ---
 
-## 🔧 **Unfixed Bugs**
+## **Unfixed Bugs**
 1. **Prediction Confidence Display Issue**:  
    When uploading a healthy leaf for analysis, the result intermittently suggests a 0% confidence of accuracy. This does not impact the accuracy which is correct but requires    
    refinement in future iterations. I was unable to find a soloution to this bug.
@@ -186,7 +186,7 @@ The dashboard is structured into the following pages:
  
 ---
 
-## 🚀 **Deployment Instructions**
+## **Deployment Instructions**
 The project was deployed using **Render** for a seamless and scalable web service.
 
 ### Deployment Steps:
@@ -196,7 +196,7 @@ The project was deployed using **Render** for a seamless and scalable web servic
    streamlit run app.py
 3. Deploy and test the live app link.
 
-## 🧰 **Technologies Used**
+## **Technologies Used**
 - **Programming Language:** Python
 - **Libraries and Frameworks:**
   - **TensorFlow/Keras:** Model training and evaluation (eg. used to train models in the notebooks for Model evaluating and feature reduction).
@@ -212,13 +212,13 @@ The project was deployed using **Render** for a seamless and scalable web servic
 
 ---
 
-## 📜 **License**
+## **License**
 This project was conducted under an NDA and is proprietary to Farmy & Foods. Unauthorized sharing of the dataset or codebase is prohibited.
 The restricted data is saved in a .git ignore file.
 
 ---
 
-## 🤝 **Credits**
+## **Credits**
 ### Content:
 - **Dataset:** [Kaggle Cherry Leaves Dataset](https://www.kaggle.com/codeinstitute/cherry-leaves)
 - **Tutorials and Resources:**
@@ -228,7 +228,7 @@ The restricted data is saved in a .git ignore file.
 - Emoji use - [Streamlit] (https://streamlit-emoji-shortcodes-streamlit-app-gwckff.streamlit.app/).
 ---
 
-## 🗺️ **Future Plans**
+## **Future Plans**
 1. **Generalization Testing:**  
    Test the model with external datasets to ensure robustness across different farms and conditions.
 
